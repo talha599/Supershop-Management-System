@@ -1,0 +1,26 @@
+C:\Users\Naziyat Wafa\Desktop\C# Final Project\Supermarket\Supermarket\bin\Debug\Supermarket.exe.config
+C:\Users\Naziyat Wafa\Desktop\C# Final Project\Supermarket\Supermarket\bin\Debug\Supermarket.exe
+C:\Users\Naziyat Wafa\Desktop\C# Final Project\Supermarket\Supermarket\bin\Debug\Supermarket.pdb
+C:\Users\Naziyat Wafa\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.csproj.AssemblyReference.cache
+C:\Users\Naziyat Wafa\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.Form1.resources
+C:\Users\Naziyat Wafa\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.Properties.Resources.resources
+C:\Users\Naziyat Wafa\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.csproj.GenerateResource.cache
+C:\Users\Naziyat Wafa\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.csproj.CoreCompileInputs.cache
+C:\Users\Naziyat Wafa\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.exe
+C:\Users\Naziyat Wafa\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.pdb
+C:\Users\Naziyat Wafa\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.Splash.resources
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\bin\Debug\Supermarket.exe.config
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\bin\Debug\Supermarket.exe
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\bin\Debug\Supermarket.pdb
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.csproj.AssemblyReference.cache
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.Form1.resources
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.Properties.Resources.resources
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.Splash.resources
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.csproj.GenerateResource.cache
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.csproj.CoreCompileInputs.cache
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.exe
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.pdb
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.ProductForm.resources
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.SellerForm.resources
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.CategoryForm.resources
+C:\Users\talha\OneDrive\Desktop\C# Final Project\Supermarket\Supermarket\obj\Debug\Supermarket.SellingForm.resources
