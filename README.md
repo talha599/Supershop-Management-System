@@ -80,6 +80,15 @@ Step 3: Run the Application
 - Read: View the list of contacts.
 - Update: Modify contact details.
 - Delete: Remove a contact.
+## Table Structure
+![Screenshot 2024-09-29 022037](https://github.com/user-attachments/assets/5db41f8d-6c3a-46b9-82d8-ffa98ab0aee4)
+
+![Screenshot 2024-09-29 022220](https://github.com/user-attachments/assets/4f151c1e-899f-41f1-8be2-8adb8b88d2fe)
+
+![Screenshot 2024-09-29 022702](https://github.com/user-attachments/assets/7f4c3cfd-8272-4c97-a727-cb43aa81d95e)
+
+![Screenshot 2024-09-29 024016](https://github.com/user-attachments/assets/eae38943-cc30-4d32-9b09-a4b60b3cb7d7)
+
 ## Database Backup
 
 To backup the `smarket` database:
@@ -87,6 +96,22 @@ To backup the `smarket` database:
 1. Open SSMS and right-click on the `smarket`.
 2. Navigate to `Tasks` -> `Back Up`.
 3. Select the destination and click `OK` to create a backup file.
+
+## Table Structure
+![Screenshot 2024-09-29 025217](https://github.com/user-attachments/assets/c3f9b98f-47a9-4aa1-a44f-d423c3d2576d)
+
+![Screenshot 2024-09-29 024214](https://github.com/user-attachments/assets/ee4b12a0-e480-4779-8858-9f877fd986a7)
+
+![Screenshot 2024-09-29 024259](https://github.com/user-attachments/assets/5fbc1e40-2bfd-4470-a22e-7d4fa04ef155)
+
+![Screenshot 2024-09-29 024334](https://github.com/user-attachments/assets/094f0b4e-5e8d-4331-8d5a-fcb2fb4763c5)
+
+![Screenshot 2024-09-29 024355](https://github.com/user-attachments/assets/1b237e25-889e-4e80-b6a8-b08176ac6163)
+
+![Screenshot 2024-09-29 024459](https://github.com/user-attachments/assets/b32b04f5-9ac9-422e-96e7-5954ceae3d48)
+
+
+
 ## Support
 
 For support, Email: talhasedubd@gmail.com or Watch: https://youtu.be/mzeUKQjJK5c?si=DE7m4-4V1Ae4Wrq1
