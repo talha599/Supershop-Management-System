@@ -2,8 +2,14 @@
 
 The Supershop Management System is a comprehensive software solution designed to streamline the operations of retail businesses. This system integrates various functionalities such as inventory management, sales tracking, customer relationship management, and reporting into a user-friendly interface, enabling shop owners to efficiently manage their daily activities.
 
+## Features
 
-
+- Inventory Management: Track products, manage stock levels, and receive alerts for low inventory.
+- Sales Tracking: Monitor sales transactions, generate receipts, and view daily/weekly/monthly sales reports.
+- Customer Relationship Management: Store customer information, purchase history, and provide better service through insights.
+- Reporting: Generate detailed reports on sales, inventory, and customer activity to facilitate informed decision-making.
+- Real-time Data Analysis: View real-time metrics to track performance and growth.
+- Scalability: Easily expand the system for use in larger stores or chains.
 
 ## Prerequisites
 
@@ -29,13 +35,43 @@ Step 1: Setup the Database
 - Copy the following SQL script and execute it in SSMS to create the `Contacts` table:
 
 ```bash
-  CREATE TABLE Contacts (
-    ID INT PRIMARY KEY IDENTITY(1,1),
-    FirstName NVARCHAR(50),
-    LasttName NVARCHAR(50),
-    Phone NVARCHAR(20),
-    Age INT
+ CREATE TABLE [dbo].[SellerTbl] (
+    [SellerId]       INT          NOT NULL,
+    [SellerName]     VARCHAR (50) NOT NULL,
+    [SellerAge]      INT          NOT NULL,
+    [SellerPhone]    VARCHAR (50) NOT NULL,
+    [SellerPassword] VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([SellerId] ASC)
 );
+```
+```bash
+    [ProdId]    INT          NOT NULL,
+    [ProdName]  VARCHAR (50) NOT NULL,
+    [ProdQty]   INT          NOT NULL,
+    [ProdPrice] INT          NOT NULL,
+    [ProdCat]   VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([ProdId] ASC)
+);
+
+```
+```bash
+CREATE TABLE [dbo].[CategoryTbl] (
+    [CatId]   INT           NOT NULL,
+    [CatName] VARCHAR (50)  NOT NULL,
+    [CatDesc] VARCHAR (100) NOT NULL,
+    PRIMARY KEY CLUSTERED ([CatId] ASC)
+);
+
+```
+```bash
+CREATE TABLE [dbo].[BillTbl] (
+    [BillId]     INT          NOT NULL,
+    [SellerName] VARCHAR (50) NOT NULL,
+    [BillDate]   VARCHAR (50) NOT NULL,
+    [TotAmt]     INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([BillId] ASC)
+);
+
 ```
 3. Backup the Database (Optional):
 
@@ -49,7 +85,7 @@ Step 2: Configure the Application
 - Clone this repository to your local machine using:
 
 ```bash
-  git clone < https://github.com/talha599/CrudApp-Readme >
+  git clone < https://github.com/talha599/Supershop-Management-System >
 ```
 2. Open the Solution:
 
@@ -76,10 +112,11 @@ Step 3: Run the Application
 3. Perform CRUD Operations:
 
  You can now perform the following operations:
-- Create: Add new contacts.
+- Create: Add new Data.
 - Read: View the list of contacts.
 - Update: Modify contact details.
 - Delete: Remove a contact.
+
 ## Table Structure
 ![Screenshot 2024-09-29 022037](https://github.com/user-attachments/assets/5db41f8d-6c3a-46b9-82d8-ffa98ab0aee4)
 
@@ -89,6 +126,13 @@ Step 3: Run the Application
 
 ![Screenshot 2024-09-29 024016](https://github.com/user-attachments/assets/eae38943-cc30-4d32-9b09-a4b60b3cb7d7)
 
+## Technologies Used
+- C#
+- ASP.NET Core / .NET Framework
+- Entity Framework Core
+- Microsoft SQL Server
+- Bootstrap (UI Framework)
+
 ## Database Backup
 
 To backup the `smarket` database:
@@ -97,7 +141,7 @@ To backup the `smarket` database:
 2. Navigate to `Tasks` -> `Back Up`.
 3. Select the destination and click `OK` to create a backup file.
 
-## Table Structure
+## Screenshorts of Forms
 ![Screenshot 2024-09-29 025217](https://github.com/user-attachments/assets/c3f9b98f-47a9-4aa1-a44f-d423c3d2576d)
 
 ![Screenshot 2024-09-29 024214](https://github.com/user-attachments/assets/ee4b12a0-e480-4779-8858-9f877fd986a7)
@@ -110,7 +154,15 @@ To backup the `smarket` database:
 
 ![Screenshot 2024-09-29 024459](https://github.com/user-attachments/assets/b32b04f5-9ac9-422e-96e7-5954ceae3d48)
 
+## Contributing
 
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions for improving the system.
+
+1. Fork the repository.
+2. Create a new branch `(git checkout -b feature-branch)`.
+3. Commit your changes `(git commit -am 'Add new feature')`.
+4. Push to the branch `(git push origin feature-branch)`.
+5.Create a new Pull Request.
 
 ## Support
 
