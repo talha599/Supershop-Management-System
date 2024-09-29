@@ -28,11 +28,11 @@ Step 1: Setup the Database
 
 - Open SQL Server Management Studio (SSMS).
 - Right-click on `Databases` and select `New Database`.
-- Name the database  `ContactDB`.
+- Name the database  `smarket`.
 
 2. Generate the Table Script:
 
-- Copy the following SQL script and execute it in SSMS to create the `Contacts` table:
+- Copy the following SQL script and execute it in SSMS to create the `SellerTbl` table:
 
 ```bash
  CREATE TABLE [dbo].[SellerTbl] (
@@ -44,7 +44,9 @@ Step 1: Setup the Database
     PRIMARY KEY CLUSTERED ([SellerId] ASC)
 );
 ```
+- Copy the following SQL script and execute it in SSMS to create the `ProdTbl` table:
 ```bash
+CREATE TABLE [dbo].[ProductTbl] (
     [ProdId]    INT          NOT NULL,
     [ProdName]  VARCHAR (50) NOT NULL,
     [ProdQty]   INT          NOT NULL,
@@ -54,6 +56,7 @@ Step 1: Setup the Database
 );
 
 ```
+- Copy the following SQL script and execute it in SSMS to create the `CategoryTbl` table:
 ```bash
 CREATE TABLE [dbo].[CategoryTbl] (
     [CatId]   INT           NOT NULL,
@@ -63,6 +66,7 @@ CREATE TABLE [dbo].[CategoryTbl] (
 );
 
 ```
+- Copy the following SQL script and execute it in SSMS to create the `BillTbl` table:
 ```bash
 CREATE TABLE [dbo].[BillTbl] (
     [BillId]     INT          NOT NULL,
@@ -97,7 +101,7 @@ Step 2: Configure the Application
 
 ```bash
   <connectionStrings>
-    <add name="ContactDB" connectionString="Data Source=TALHA;Initial Catalog=MyCURD;Integrated Security=True;TrustServerCertificate=True" />
+    <add name="smarket" connectionString="Data Source=TALHA;Initial Catalog=MyCURD;Integrated Security=True;TrustServerCertificate=True" />
 </connectionStrings>
 
 ```
